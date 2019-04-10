@@ -17,7 +17,7 @@ tickers = []
 names = []
 for x in range(1, 100):
     tickers.append((all_ticker_text[x*2+13].get_text())[:-1])
-    names.append((all_ticker_text[x*2+12].get_text())[:-1])
+    names.append((all_ticker_text[x*2+14].get_text())[:-1])
 
 today = str(date.today())
 start_date = str(date.today()-timedelta(days=5))
